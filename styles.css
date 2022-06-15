@@ -4,6 +4,7 @@ body {
 h1{
     color: #025157;
     text-align: center;
+    font-family: 'Joan', serif;
 }
 p{
     color: #8b8b8bcc;
@@ -25,6 +26,9 @@ button{
   
   li {
     display: inline;
+    margin-right: 25px;
+    margin-left: 25px;
+    color: #025157;
   }
   
   .header > * {
@@ -33,6 +37,7 @@ button{
     line-height: 45px;
     height: 100%;
     vertical-align: middle;
+    font-family: sans-serif;
   }
   
   .logo {
@@ -48,6 +53,7 @@ button{
     text-align: left;
     color: #025157;
     font-weight: 500;
+    height: 45px;
   }
   
   .actions {
@@ -55,8 +61,27 @@ button{
     text-align: right;
     font-size: 14px;
     font-weight: 600;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .actions > a {
+    color: #67b54b;
+  }
+
+  .actions > button {
+    color: #fff;
+    background-color: #67b567;
+    /*padding: 12px 14px 14px 12px;*/
+    padding-top: 12;
+    padding-right: 14;
+    padding-left: 14;
+    padding-bottom: 12;
+    border: 0px;
+    border-radius: 5px;
   }
 
   .main {
     margin-top: 140px;
+    text-align: center;
   }
