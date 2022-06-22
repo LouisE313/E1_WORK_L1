@@ -121,3 +121,7 @@ button{
     background-color: #fffbf7;
   }
   
+  .futures{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
