@@ -123,5 +123,43 @@ button{
   
   .futures{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    /*grid-template-columns: 1fr 1fr;*/
+    /*grid-template-rows: repeat(2, 330px);*/
+    /*grid-template-rows: repeat(2, 330px);*/
+    
+    /*grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);*/
+    height: 660px;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+
+    background-color: #025157;
+  }
+
+  .future{
+    background-color: #fff;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px;
+  }
+
+  .future img{
+    width: 15%;
+
+  }
+
+  .future-top{
+    align-items: center;
+  }
+
+  .future-left{
+    display: flex;
+    flex-direction: row;
+    padding: 50px 50px;
+  }
+
+  .future > h1{
+    color: black;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
